@@ -107,7 +107,7 @@ function editTask() {
   let containsClass = listItems.classList.contains("editMode");
 
   if (containsClass) {
-    input.style = "display:none;";
+    input.style = 'display:none;';
     label.innerText = input.value;
     editButton.className = "edit";
     editButton.innerHTML = "✎";
@@ -116,7 +116,7 @@ function editTask() {
     input.style = "display:block;";
     input.value = label.innerText;
     editButton.className = "edit";
-    editButton.innerHTML = "🖬";
+    editButton.innerHTML = "🗸";
   }
   listItems.classList.toggle("editMode");
 }
