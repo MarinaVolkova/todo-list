@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://n7.nextpng.com/sticker-png/634/636/sticker-png-computer-icons-hide-logo-black-circle-%D0%BF%D0%B8%D0%BA%D1%81%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <title>Task List</title>
+</head>
+<body>
+  <header>
+  <h1 class="head" id = "addInputh2">Task List
+    <img id="headimg" src="https://img.icons8.com/office/452/bright-moon.png" alt=""></h1>
+  <p id="data"></p>
+  <p id ="time">Часики тикают</p> 
+  
+</header>
+  <main>   
+    <div  id = "addInput" class="done addInput">
+       <h2>Добавить дело</h2>
+    <input id="new-task" type="text">
+    <button id = "add" class="add"></button>
+    </div>
+    <div class="tasksList">
+    <div class="done">
+      <h2>Завершённые дела</h2>
+      <hr>
+      <ul id="tasks" class="tasks"> 
+        <h4 id="tasksh4">Пусто</h4>
+       </ul>
+    </div>
+     <div class="notDone">
+      <h2>Список дел</h2>
+      <hr>
+      <ul id="completed_tasks" class="completed_tasks">
+        <h4 id="completed_tasksh4">Пусто</h4>
+      </ul>
+    </div>
+  </div>
+  </main>
+  <footer>
+  
+  </footer>
+ 
+  <script src="index.js"></script>
+</body>
+</html>
